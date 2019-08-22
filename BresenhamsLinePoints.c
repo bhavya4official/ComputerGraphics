@@ -24,7 +24,7 @@ void drawline(int x1, int y1, int x2, int y2)
  
 	int p=2*dy-dx; //pixel parameter
  
-	while(x1<x2)
+	while(x<x2)
 	{
 		if(p<0)
 		{
