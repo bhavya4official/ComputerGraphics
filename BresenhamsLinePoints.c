@@ -34,6 +34,7 @@ void drawline(int x1, int y1, int x2, int y2)
 		else
 		{
 		    p=p+2*dy-2*dx;
+		    x=x+1;
 		    y=y+1;
 		}
 		printf("\n %d %d",x,y); //line drawing points
